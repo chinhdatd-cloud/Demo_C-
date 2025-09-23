@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1757949678 source:d:\c++\th_ham\bai_8\main.cpp
+	<iostream>
+	<cstring>
+	<cctype>
+
