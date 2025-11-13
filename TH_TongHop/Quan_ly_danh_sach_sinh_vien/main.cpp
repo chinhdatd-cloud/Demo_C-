@@ -7,17 +7,15 @@
 #include <cstring>
 
  #define MAX_SiZE 50;
-using namespace std;
+
+typedef struct NgaySinh {
+    int ngay;
+    int thang;
+    int nam;
+}NgaySinh;
 
 
-struct NgaySinh {
-    int ngay[3 ];
-    int thang[3];
-    int nam[5];
-};
-
-
-struct Sinhvien {
+typedef struct Sinhvien {
     char hoten[30];
     NgaySinh ngaysinh;
     char gioitinh[5];
